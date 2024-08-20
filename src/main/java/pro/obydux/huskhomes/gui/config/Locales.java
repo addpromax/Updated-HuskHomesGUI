@@ -17,12 +17,12 @@
  *  limitations under the License.
  */
 
-package net.william278.huskhomes.gui.config;
+package pro.obydux.huskhomes.gui.config;
 
 import de.themoep.minedown.adventure.MineDown;
 import net.kyori.adventure.text.serializer.legacy.LegacyComponentSerializer;
 import net.william278.annotaml.YamlFile;
-import net.william278.huskhomes.gui.HuskHomesGui;
+import pro.obydux.huskhomes.gui.HuskHomesGui;
 import org.apache.commons.text.StringEscapeUtils;
 import org.jetbrains.annotations.NotNull;
 

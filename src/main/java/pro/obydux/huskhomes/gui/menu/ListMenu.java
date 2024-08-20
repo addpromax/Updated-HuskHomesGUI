@@ -17,10 +17,10 @@
  *  limitations under the License.
  */
 
-package net.william278.huskhomes.gui.menu;
+package pro.obydux.huskhomes.gui.menu;
 
 import de.themoep.inventorygui.*;
-import net.william278.huskhomes.gui.HuskHomesGui;
+import pro.obydux.huskhomes.gui.HuskHomesGui;
 import net.william278.huskhomes.position.Home;
 import net.william278.huskhomes.position.SavedPosition;
 import net.william278.huskhomes.position.Warp;
@@ -36,7 +36,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.function.Consumer;
 
-import static net.william278.huskhomes.gui.config.Locales.textWrap;
+import static pro.obydux.huskhomes.gui.config.Locales.textWrap;
 
 /**
  * A menu for displaying a list of saved positions

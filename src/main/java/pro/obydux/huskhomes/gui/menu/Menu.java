@@ -17,12 +17,12 @@
  *  limitations under the License.
  */
 
-package net.william278.huskhomes.gui.menu;
+package pro.obydux.huskhomes.gui.menu;
 
 import de.themoep.inventorygui.InventoryGui;
 import net.william278.huskhomes.api.HuskHomesAPI;
-import net.william278.huskhomes.gui.HuskHomesGui;
-import net.william278.huskhomes.gui.config.Settings;
+import pro.obydux.huskhomes.gui.HuskHomesGui;
+import pro.obydux.huskhomes.gui.config.Settings;
 import net.william278.huskhomes.position.Home;
 import net.william278.huskhomes.position.SavedPosition;
 import net.william278.huskhomes.position.Warp;

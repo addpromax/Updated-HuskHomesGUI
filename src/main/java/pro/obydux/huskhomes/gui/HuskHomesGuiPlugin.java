@@ -17,13 +17,13 @@
  *  limitations under the License.
  */
 
-package net.william278.huskhomes.gui;
+package pro.obydux.huskhomes.gui;
 
 import net.kyori.adventure.platform.AudienceProvider;
 import net.william278.annotaml.Annotaml;
 import net.william278.desertwell.util.Version;
-import net.william278.huskhomes.gui.config.Locales;
-import net.william278.huskhomes.gui.config.Settings;
+import pro.obydux.huskhomes.gui.config.Locales;
+import pro.obydux.huskhomes.gui.config.Settings;
 import org.jetbrains.annotations.NotNull;
 
 import java.io.File;

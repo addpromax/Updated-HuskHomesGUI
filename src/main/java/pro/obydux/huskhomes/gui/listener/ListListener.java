@@ -17,12 +17,12 @@
  *  limitations under the License.
  */
 
-package net.william278.huskhomes.gui.listener;
+package pro.obydux.huskhomes.gui.listener;
 
 import net.william278.huskhomes.event.HomeListEvent;
 import net.william278.huskhomes.event.WarpListEvent;
-import net.william278.huskhomes.gui.HuskHomesGui;
-import net.william278.huskhomes.gui.menu.ListMenu;
+import pro.obydux.huskhomes.gui.HuskHomesGui;
+import pro.obydux.huskhomes.gui.menu.ListMenu;
 import net.william278.huskhomes.position.Home;
 import net.william278.huskhomes.user.OnlineUser;
 import org.bukkit.event.EventHandler;

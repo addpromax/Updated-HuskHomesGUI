@@ -1,5 +1,5 @@
 name: HuskHomesGUI
-main: net.william278.huskhomes.gui.HuskHomesGui
+main: pro.obydux.huskhomes.gui.HuskHomesGui
 version: '${version}'
 description: '${description}'
 api-version: 1.17

@@ -17,7 +17,7 @@
  *  limitations under the License.
  */
 
-package net.william278.huskhomes.gui.config;
+package pro.obydux.huskhomes.gui.config;
 
 import net.william278.annotaml.YamlComment;
 import net.william278.annotaml.YamlFile;

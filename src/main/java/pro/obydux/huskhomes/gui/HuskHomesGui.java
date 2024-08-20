@@ -17,15 +17,15 @@
  *  limitations under the License.
  */
 
-package net.william278.huskhomes.gui;
+package pro.obydux.huskhomes.gui;
 
 import net.kyori.adventure.platform.AudienceProvider;
 import net.kyori.adventure.platform.bukkit.BukkitAudiences;
 import net.william278.desertwell.util.Version;
-import net.william278.huskhomes.gui.command.HuskHomesGuiCommand;
-import net.william278.huskhomes.gui.config.Locales;
-import net.william278.huskhomes.gui.config.Settings;
-import net.william278.huskhomes.gui.listener.ListListener;
+import pro.obydux.huskhomes.gui.command.HuskHomesGuiCommand;
+import pro.obydux.huskhomes.gui.config.Locales;
+import pro.obydux.huskhomes.gui.config.Settings;
+import pro.obydux.huskhomes.gui.listener.ListListener;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.jetbrains.annotations.NotNull;
 

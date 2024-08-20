@@ -1,16 +1,13 @@
 <!--suppress ALL -->
 <p align="center">
-    <img src="images/banner.png" alt="HuskHomesGUI" />
-    <a href="https://github.com/Obydux/HuskHomesGUI/actions/workflows/java_ci.yml">
-        <img src="https://img.shields.io/github/actions/workflow/status/Obydux/HuskHomesGUI/java_ci.yml?branch=master&logo=github"/>
+    <img src="images/banner.png" alt="Updated-HuskHomesGUI" />
+    <a href="https://github.com/Obydux/Updated-HuskHomesGUI/actions/workflows/java_ci.yml">
+        <img src="https://img.shields.io/github/actions/workflow/status/Obydux/Updated-HuskHomesGUI/java_ci.yml?branch=master&logo=github"/>
     </a>
     <a href="https://discord.gg/MC2BzcE3vx">
         <img src="https://img.shields.io/discord/1263839827661557801.svg?label=&logo=discord&logoColor=fff&color=7389D8&labelColor=6A7EC2" />
     </a> 
     <br/>
-    <b>
-        <a href="https://www.spigotmc.org/resources/huskhomesgui.91059/">Spigot</a>
-    </b> —
     <b>
         <a href="https://william278.net/docs/huskhomes/gui-add-on">Docs</a>
     </b> — 
@@ -18,7 +15,7 @@
         <a href="https://github.com/WiIIiam278/HuskHomes/">Homes</a>
     </b> — 
     <b>
-        <a href="https://github.com/Obydux/HuskHomesGUI/issues">Issues</a>
+        <a href="https://github.com/Obydux/Updated-HuskHomesGUI/issues">Issues</a>
     </b>
 </p>
 <br>

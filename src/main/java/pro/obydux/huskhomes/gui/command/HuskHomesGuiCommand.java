@@ -17,14 +17,14 @@
  *  limitations under the License.
  */
 
-package net.william278.huskhomes.gui.command;
+package pro.obydux.huskhomes.gui.command;
 
 import de.themoep.minedown.adventure.MineDown;
 import net.kyori.adventure.audience.Audience;
 import net.kyori.adventure.text.Component;
 import net.kyori.adventure.text.format.TextColor;
 import net.william278.desertwell.about.AboutMenu;
-import net.william278.huskhomes.gui.HuskHomesGui;
+import pro.obydux.huskhomes.gui.HuskHomesGui;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
