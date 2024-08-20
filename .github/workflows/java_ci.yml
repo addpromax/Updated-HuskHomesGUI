@@ -31,35 +31,6 @@ jobs:
       - name: Get Version
         run: |
           echo "version_name=${{steps.fetch-version.outputs.VERSION_NAME}}" >> $GITHUB_ENV
-      - name: Upload to Modrinth
-        uses: Kir-Antipov/mc-publish@v3.3
-        with:
-          modrinth-id: bME80dEI
-          modrinth-featured: false
-          modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
-          modrinth-dependencies: |
-            huskhomes | depends | 4.6
-          files-primary: target/HuskHomesGUI-*.jar
-          name: HuskHomesGUI v${{ env.version_name }}
-          version: ${{ env.version_name }}
-          version-type: alpha
-          changelog: ${{ github.event.head_commit.message }}
-          loaders: |
-            spigot
-            paper
-            purpur
-            folia
-          game-versions: |
-            1.17.1
-            1.18.2
-            1.19.4
-            1.20.1
-            1.20.2
-            1.20.4
-            1.20.6
-            1.21
-            1.21.1
-          java: 17
       - name: Upload GitHub Artifact
         uses: actions/upload-artifact@v2
         with:
