@@ -30,8 +30,6 @@ import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import static org.bukkit.Bukkit.getLogger;
-
 @YamlFile(header = """
         ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
         ┃     HuskHomesGui Locales     ┃
@@ -156,7 +154,7 @@ public class Locales {
         StringBuilder out = new StringBuilder();
 
         while (matcher.find()) {
-            if (!matcher.group().trim().equals("")) {
+            if (!matcher.group().trim().isEmpty()) {
                 out.append(plugin.getLocales().getLocale("item_description_line_style", matcher.group().trim()));
             }
         }

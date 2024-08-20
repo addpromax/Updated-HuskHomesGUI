@@ -15,10 +15,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Set up JDK 16
+      - name: Set up JDK 17
         uses: actions/setup-java@v3
         with:
-          java-version: '16'
+          java-version: '17'
           distribution: 'temurin'
       - name: Build with Gradle
         uses: gradle/gradle-build-action@v2
@@ -38,7 +38,7 @@ jobs:
           modrinth-featured: false
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
           modrinth-dependencies: |
-            huskhomes | depends | 3.0
+            huskhomes | depends | 4.6
           files-primary: target/HuskHomesGUI-*.jar
           name: HuskHomesGUI v${{ env.version_name }}
           version: ${{ env.version_name }}
@@ -48,13 +48,18 @@ jobs:
             spigot
             paper
             purpur
+            folia
           game-versions: |
-            1.16.5
             1.17.1
             1.18.2
             1.19.4
             1.20.1
-          java: 16
+            1.20.2
+            1.20.4
+            1.20.6
+            1.21
+            1.21.1
+          java: 17
       - name: Upload GitHub Artifact
         uses: actions/upload-artifact@v2
         with:
