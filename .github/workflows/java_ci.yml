@@ -21,7 +21,7 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
       - name: Build with Gradle
-        uses: gradle/gradle-build-action@v2
+        uses: gradle/gradle-build-action@v4
         with:
           arguments: build
       - name: Query Version
@@ -32,7 +32,7 @@ jobs:
         run: |
           echo "version_name=${{steps.fetch-version.outputs.VERSION_NAME}}" >> $GITHUB_ENV
       - name: Upload GitHub Artifact
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: HuskHomesGUI Plugin
           path: target/HuskHomesGUI-*.jar
