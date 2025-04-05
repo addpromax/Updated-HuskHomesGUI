@@ -1,5 +1,5 @@
 # Builds and tests the project with Gradle
-name: Java CI
+name: Java CI 
 
 on:
   push:
